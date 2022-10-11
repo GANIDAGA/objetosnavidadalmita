@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi basesita</title>
+    <link href="design.css" rel="stylesheet"/>
+</head>
+<body>
+    <center>
+    <h1 >Mi lista de objetos para navidad</h1>
+    <br>
+    <a id = "consulta" href="consultarUsuario">Objetos de mi lista </a>
+    <br>
+    <br>
+    <form method = "post" action="/agregarUsuario">
+        <input id="campotexto" type ="Text" name="nombre">
+        <input id = "boton" type = "submit" value ="Agregar Objeto">
+
+
+
+    </form>
+    <br>
+    <form method = "post" action="/eliminarUsuario">
+        <input id="campotexto" type ="Text" name="nombre">
+        <input id = "boton" type = "submit" value ="Eliminar Objeto">
+
+
+
+    </form>
+    <br>
+    <form method = "post" action="/cambiarUsuario">
+        <input id="campotexto" type ="Text" name="nombre">
+        <input id="campotexto" type = "Text" name="newnombre">
+        <input id = "boton" type = "submit" value ="Cambiar Objeto">
+
+
+
+    </form>
+</center>
+</body>
+</html>
